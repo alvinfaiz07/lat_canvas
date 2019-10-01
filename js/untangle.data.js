@@ -11,12 +11,12 @@ this.radius = radius;
 };
 
 function randRadius() {
-	var radius=20*Math.random()|3;
+	var radius=15*Math.random()|5;
 	return radius;
 }
 untangleGame.createRandomCircles = function(width, height) {
 // randomly draw 5 circles
-var circlesCount = 1000;
+var circlesCount = 69;
 //var circleRadius = randRadius();
 for (var i=0;i<circlesCount;i++) {
 var x = Math.random()*width;
